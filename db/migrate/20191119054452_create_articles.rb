@@ -3,7 +3,7 @@ class CreateArticles < ActiveRecord::Migration[5.2]
     create_table :articles do |t|
       t.string :title
       t.string :author
-      t.textrails :text
+      t.text :text
       t.string :g
       t.string :scaffold
       t.string :article
